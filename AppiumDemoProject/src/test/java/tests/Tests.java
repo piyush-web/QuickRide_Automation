@@ -28,7 +28,7 @@ public class Tests extends BaseClass {
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		System.out.println("Enter Password");
 		driver.findElement(By.xpath("//*[@resource-id=\"com.disha.quickride:id/login_pwd_editText\"]"))
-				.sendKeys("Piyush@123");
+				.sendKeys("Test@123");
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		System.out.println("Click on Login Button");
 		driver.findElement(By.xpath("//*[@resource-id=\"com.disha.quickride:id/login_button\"]")).click();
